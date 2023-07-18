@@ -1,13 +1,13 @@
- #include<stdio.h>
+#include<stdio.h>
 
 /**
- *mains - prints the alphabet.
+ *main - prints the alphabet.
  *
  *Return: Always 0.
  */
 int main(void)
 {
-	char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOQRSTUVWXYZ";
+	char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i;
 
 	for (i = 0; i < 52; i++)
